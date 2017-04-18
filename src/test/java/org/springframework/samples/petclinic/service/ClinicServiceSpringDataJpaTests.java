@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @see AbstractClinicServiceTests AbstractClinicServiceTests for more details. </p>
  * @author Michael Isvy
  */
-@WebAppConfiguration
+@WebAppConfiguration("src/main/webapp")
 @ContextConfiguration({"classpath:spring/business-config.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 @ActiveProfiles("spring-data-jpa")

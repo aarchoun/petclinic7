@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @author Sam Brannen
  * @author Michael Isvy
  */
-@WebAppConfiguration
+@WebAppConfiguration("src/main/webapp")
 @ContextConfiguration({"classpath:spring/business-config.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 @ActiveProfiles("jpa")
